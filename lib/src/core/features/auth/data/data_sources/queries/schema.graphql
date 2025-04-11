@@ -1,0 +1,231 @@
+"""Exposes a URL that specifies the behavior of this scalar."""
+directive @specifiedBy(
+  """The URL that specifies the behavior of this scalar."""
+  url: String!
+) on SCALAR
+
+input CheckCodeInput {
+  email: String = null
+  phone: String = null
+  code: Int = null
+  recruit_session_uid: UUID = null
+}
+
+union CheckCodeResponse = Profile | ReturnError
+
+input CheckCodeVerifiedInput {
+  email: String = null
+  phone: String = null
+  code: Int = null
+  recruit_session_uid: UUID = null
+}
+
+input CheckPasswordInput {
+  code: Int = null
+  hashed_code: String = null
+  phone: String = null
+}
+
+"""Date (isoformat)"""
+scalar Date
+
+union DeleteProfileResponse = Successfully | ReturnError
+
+type DictCityType {
+  city_id: Int!
+  city_code: Union!
+  city: String!
+  region: DictRegionType
+  population: Int!
+}
+
+type DictCityTypeList {
+  dict_city_type_list: [DictCityType!]!
+}
+
+type DictFedType {
+  fed_id: Int!
+  fed: String!
+}
+
+type DictFedTypeList {
+  dict_fed_type_list: [DictFedType!]!
+}
+
+type DictRegionType {
+  region_id: Int!
+  region: String!
+  fed: DictFedType
+}
+
+type DictRegionTypeList {
+  dict_region_type_list: [DictRegionType!]!
+}
+
+type DictSexType {
+  sex_id: Int!
+  sex: String!
+}
+
+type DictSexTypeList {
+  dict_sex_type_list: [DictSexType!]!
+}
+
+union GetDictCityResponse = DictCityTypeList | ReturnError
+
+union GetDictFedResponse = DictFedTypeList | ReturnError
+
+union GetDictRegionResponse = DictRegionTypeList | ReturnError
+
+union GetDictSexResponse = DictSexTypeList | ReturnError
+
+input LoginInput {
+  phone: String!
+  is_approval_pdn: Boolean!
+  is_approval_participation: Boolean!
+}
+
+union LogoutResponse = Successfully | ReturnError
+
+type Mutation {
+  send_code(login_input: LoginInput!): ReturnTimerResponse!
+  auth(data: VerifyCodeInput!): ReturnTokenResponse!
+  registration(data: RegistrationInput!): RegistrationResponse!
+  update_profile(profile_input: ProfileUpdate!): ProfileResponse!
+  delete_profile: DeleteProfileResponse!
+  check_code(data: CheckCodeInput!): ReturnTokenResponse!
+  password_check_code(data: CheckPasswordInput!): ReturnTokenResponse!
+  check_code_verified(data: CheckCodeVerifiedInput!): CheckCodeResponse!
+  web_send_code(data: UsernameInput!): ReturnTimerResponse!
+  web_send_code_verified(data: UsernameInput!): ReturnTimerResponse!
+  password_reset_request(data: UsernameInput!): ReturnTimerResponse!
+  set_password(data: SetPasswordInput!): ReturnTokenResponse!
+  set_password_verified(data: SetPasswordVerifiedInput!): SetPasswordResponse!
+  logout: LogoutResponse!
+}
+
+type Profile {
+  profile_uid: UUID!
+  profile_id: Int!
+  phone: String
+  email: String
+  respondent_status: Statuses!
+  last_name: String
+  first_name: String
+  middle_name: String
+  sex: DictSexType
+  birthday: Date
+  region: DictRegionType
+  city: DictCityType
+  locality: String
+  telegram_username: String
+  is_approval_pdn: Boolean!
+  is_approval_participation: Boolean!
+  registration_date: String!
+  fullness: Int
+  change_date: String!
+  user_edit: UUID!
+  is_blocked: Boolean
+  is_test_user: Boolean
+  is_imported: Boolean
+}
+
+union ProfileResponse = Profile | ReturnError
+
+input ProfileUpdate {
+  last_name: String
+  first_name: String
+  middle_name: String
+  sex_id: Int
+  birthday: Date
+  city_id: Int
+  locality: String
+  region_id: Int
+  telegram_username: String
+}
+
+type Query {
+  """Update access token by refresh token"""
+  refresh_token(refresh_token: String!): ReturnTokenResponse!
+  profile: ProfileResponse!
+  get_dict_sexes: GetDictSexResponse!
+  get_dict_cities: GetDictCityResponse!
+  get_dict_regions: GetDictRegionResponse!
+  get_dict_feds: GetDictFedResponse!
+  web_auth(data: WebAuthInput!): ReturnTokenResponse!
+}
+
+input RegistrationInput {
+  phone: String = null
+  email: String = null
+  is_approval_pdn: Boolean!
+  is_approval_participation: Boolean!
+}
+
+union RegistrationResponse = Successfully | ReturnError
+
+type ReturnError {
+  message: String!
+  name: String!
+}
+
+type ReturnTimer {
+  timer: String!
+}
+
+union ReturnTimerResponse = ReturnTimer | ReturnError
+
+union ReturnTokenResponse = ReturnTokens | ReturnError
+
+type ReturnTokens {
+  access_token: String!
+  refresh_token: String!
+}
+
+input SetPasswordInput {
+  password: String!
+}
+
+union SetPasswordResponse = Successfully | ReturnError
+
+input SetPasswordVerifiedInput {
+  password_prev: String!
+  password_new: String!
+}
+
+type Status {
+  status_code: String!
+  status_name: String!
+}
+
+type Statuses {
+  status_email: Status!
+  status_profile: Status!
+  status_activity: Status!
+}
+
+type Successfully {
+  message: String!
+}
+
+"""BigInt field"""
+scalar Union
+
+input UsernameInput {
+  email: String = null
+  phone: String = null
+}
+
+scalar UUID
+
+input VerifyCodeInput {
+  phone: String!
+  code: Int!
+}
+
+input WebAuthInput {
+  phone: String = null
+  email: String = null
+  password: String!
+}
+

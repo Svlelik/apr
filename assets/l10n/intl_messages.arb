@@ -1,0 +1,2760 @@
+{
+  "@@last_modified": "2025-03-20T19:55:17.523806",
+  "AuthI18n_login": "Login",
+  "@AuthI18n_login": {
+    "description": "Login",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_loginRequired": "Login required",
+  "@AuthI18n_loginRequired": {
+    "description": "Login required",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_password": "Password",
+  "@AuthI18n_password": {
+    "description": "Password",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_passwordRequired": "The password must not be empty",
+  "@AuthI18n_passwordRequired": {
+    "description": "Password validation message",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_userNotFound": "Incorrect username or password",
+  "@AuthI18n_userNotFound": {
+    "description": "Incorrect username or password message",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_minimumPassword": "Password must have at least 6 characters",
+  "@AuthI18n_minimumPassword": {
+    "description": "Password must have at least 6 characters",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_checkInternetConnection": "Check internet connection",
+  "@AuthI18n_checkInternetConnection": {
+    "description": "Check internet connection",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_enterPinCode": "Enter pin code",
+  "@AuthI18n_enterPinCode": {
+    "description": "Enter pin code",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_repeatPinCode": "Повторите код",
+  "@AuthI18n_repeatPinCode": {
+    "description": "Повторите код",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_repeatPinCodeDesc": "Введите код еще раз для подтверждения",
+  "@AuthI18n_repeatPinCodeDesc": {
+    "description": "Введите код еще раз для подтверждения",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_settingPinCode": "Установите код",
+  "@AuthI18n_settingPinCode": {
+    "description": "Установите код",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_settingPinCodeDesc": "Для быстрого доступа в приложение\nустановите код",
+  "@AuthI18n_settingPinCodeDesc": {
+    "description": "Для быстрого доступа в приложение установите код",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_pinCodeMustContain": "{number,plural, =1{Pin code must contain {number} character}other{Pin code must contain {number} characters}}",
+  "@AuthI18n_pinCodeMustContain": {
+    "description": "Pin codes must contain {number} character(s)",
+    "type": "text",
+    "placeholders_order": [
+      "number"
+    ],
+    "placeholders": {
+      "number": {}
+    }
+  },
+  "AuthI18n_pinCodesDoNotMatch": "Код не совпадает",
+  "@AuthI18n_pinCodesDoNotMatch": {
+    "description": "Код не совпадает",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_invalidPin": "Invalid PIN",
+  "@AuthI18n_invalidPin": {
+    "description": "Invalid PIN",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_unknownError": "Unknown error. Please try later",
+  "@AuthI18n_unknownError": {
+    "description": "Unknown error. Please try later",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_signInToAccessTheApp": "Sign in to access the app",
+  "@AuthI18n_signInToAccessTheApp": {
+    "description": "Sign in to access the app",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_reset": "Reset",
+  "@AuthI18n_reset": {
+    "description": "Reset",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_forgotPinCode": "Забыли код?",
+  "@AuthI18n_forgotPinCode": {
+    "description": "Reset",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_delete": "Delete",
+  "@AuthI18n_delete": {
+    "description": "Delete",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_useBiometricsToLogin": "Use biometrics to login?",
+  "@AuthI18n_useBiometricsToLogin": {
+    "description": "Use biometrics to login?",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_supportTitle": "Написать в поддержку",
+  "@AuthI18n_supportTitle": {
+    "description": "Написать в поддержку",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_supportDescription": "Отправьте запрос, и мы свяжемся с вами в ближайшее время.",
+  "@AuthI18n_supportDescription": {
+    "description": "Отправьте запрос, и мы свяжемся с вами в ближайшее время.",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_supportEmail": "Ваш емайл",
+  "@AuthI18n_supportEmail": {
+    "description": "Ваш емайл",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_supportMessage": "Введите здесь свой вопрос или описание проблемы.",
+  "@AuthI18n_supportMessage": {
+    "description": "Введите здесь свой вопрос или описание проблемы.",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_supportSubmit": "Отправить",
+  "@AuthI18n_supportSubmit": {
+    "description": "Отправить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_signInBtn": "Продолжить",
+  "@AuthI18n_signInBtn": {
+    "description": "Продолжить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_signInTitle": "Введите свой\nномер телефона",
+  "@AuthI18n_signInTitle": {
+    "description": "Введите свой номер телефона",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_signInDescription": "Мы вышлем на него код для проверки",
+  "@AuthI18n_signInDescription": {
+    "description": "Мы вышлем на него код для проверки",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_phonePatternError": "Не правильно указан номер телефона",
+  "@AuthI18n_phonePatternError": {
+    "description": "phonePatternError",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_isApprovalPDNTitle": "Я согласен на ",
+  "@AuthI18n_isApprovalPDNTitle": {
+    "description": "agreement",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_isApprovalPDNLink": "обработку персональных данных",
+  "@AuthI18n_isApprovalPDNLink": {
+    "description": "agreement",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_isApprovalParticipationTitle": "Я согласен с ",
+  "@AuthI18n_isApprovalParticipationTitle": {
+    "description": "agreement",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_isApprovalParticipationLink": "Пользовательским соглашением, Лицензионным договором и Политикой конфиденциальности",
+  "@AuthI18n_isApprovalParticipationLink": {
+    "description": "agreement",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_agreementCookiesPolicy": "Политикой использования Cookies",
+  "@AuthI18n_agreementCookiesPolicy": {
+    "description": "Ссылка которая должна подсвечиваться",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_otpTitle": "Введите код из смс",
+  "@AuthI18n_otpTitle": {
+    "description": "Введите код из смс",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_otpDescription": "Отправили на {value}",
+  "@AuthI18n_otpDescription": {
+    "description": "Введите код из смс",
+    "type": "text",
+    "placeholders_order": [
+      "value"
+    ],
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "AuthI18n_otpTimer": "Получить новый код можно через {value}",
+  "@AuthI18n_otpTimer": {
+    "description": "Получить новый код можно через ",
+    "type": "text",
+    "placeholders_order": [
+      "value"
+    ],
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "AuthI18n_getOtpTimer": "Отправить код повторно",
+  "@AuthI18n_getOtpTimer": {
+    "description": "Отправить код повторно",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_accessBlocked": "Доступ заблокирован",
+  "@AuthI18n_accessBlocked": {
+    "description": "Доступ заблокирован",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_accessBlockedDesc": "Неверный код введен более 5 раз. Повторить попытку можно будет через",
+  "@AuthI18n_accessBlockedDesc": {
+    "description": "Неверный код введен более 5 раз. Повторить попытку можно будет через",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_accountBlokedDesc": "К сожалению, аккаунт {value} заблокирован. Вы можете обратиться в поддержку за помощью",
+  "@AuthI18n_accountBlokedDesc": {
+    "description": "К сожалению, аккаунт заблокирован. Вы можете обратиться в поддержку за помощью",
+    "type": "text",
+    "placeholders_order": [
+      "value"
+    ],
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "AuthI18n_supportBtn": "Обратиться в поддержку",
+  "@AuthI18n_supportBtn": {
+    "description": "Обратиться в поддержку",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_skipBiometry": "Пропустить",
+  "@AuthI18n_skipBiometry": {
+    "description": "Пропустить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_faceId": "Face ID",
+  "@AuthI18n_faceId": {
+    "description": "Face ID",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_faceIdDescription": "Подключите распознавание лица, чтобы каждый раз не вводить код при входе",
+  "@AuthI18n_faceIdDescription": {
+    "description": "Подключите распознавание лица, чтобы каждый раз не вводить код при входе",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_touchId": "Touch ID",
+  "@AuthI18n_touchId": {
+    "description": "Touch ID",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_touchIdDescription": "Подключите распознавание отпечатка пальца, чтобы каждый раз не вводить код при входе",
+  "@AuthI18n_touchIdDescription": {
+    "description": "Подключите распознавание отпечатка пальца, чтобы каждый раз не вводить код при входе",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_enableBiometry": "Подключить",
+  "@AuthI18n_enableBiometry": {
+    "description": "Подключить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "AuthI18n_phone": "Телефон",
+  "@AuthI18n_phone": {
+    "description": "Телефон",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboardingTitle1": "Ваше мнение имеет значение",
+  "@OnboardingI18n_onboardingTitle1": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboardingTitle2": "Получайте баллы за активность и обменивайте их на",
+  "@OnboardingI18n_onboardingTitle2": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboardingDescription1": "Участвуйте в опросах и делитесь своим опытом. Компании проводят исследования, чтобы вас услышать.",
+  "@OnboardingI18n_onboardingDescription1": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboardingButton1": "Это супер!",
+  "@OnboardingI18n_onboardingButton1": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboardingButton2": "А что еще?",
+  "@OnboardingI18n_onboardingButton2": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboarding2Tag1": "Эксклюзивные подарки",
+  "@OnboardingI18n_onboarding2Tag1": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboarding2Tag2": "Скидки",
+  "@OnboardingI18n_onboarding2Tag2": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboarding2Tag3": "Переводы на карту или телефон",
+  "@OnboardingI18n_onboarding2Tag3": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboarding3Item1": "Регистрируйтесь в проекте",
+  "@OnboardingI18n_onboarding3Item1": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboarding3Item2": "Отвечайте на опросы в удобное для вас время",
+  "@OnboardingI18n_onboarding3Item2": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboarding3Item3": "Получайте вознаграждение",
+  "@OnboardingI18n_onboarding3Item3": {
+    "description": "Description for Onboarding title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_onboardingNotFound": "Onboarding not found",
+  "@OnboardingI18n_onboardingNotFound": {
+    "description": "Description for Onboarding not found",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_contactWithUs": "Связаться с нами",
+  "@OnboardingI18n_contactWithUs": {
+    "description": "Связаться с нами",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faq": "Частые вопросы",
+  "@OnboardingI18n_faq": {
+    "description": "Частые вопросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_rules": "Правила участия",
+  "@OnboardingI18n_rules": {
+    "description": "Правила участия",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_createAccount": "Создать аккаунт",
+  "@OnboardingI18n_createAccount": {
+    "description": "Правила участия",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_skip": "Пропустить",
+  "@OnboardingI18n_skip": {
+    "description": "Пропустить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqPageTitle": "Частые вопросы",
+  "@OnboardingI18n_faqPageTitle": {
+    "description": "Частые вопросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqPageNoData": "Нет данных",
+  "@OnboardingI18n_faqPageNoData": {
+    "description": "Нет данных",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqPageError": "Ошибка загрузки FAQ",
+  "@OnboardingI18n_faqPageError": {
+    "description": "Ошибка загрузки FAQ",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqBodyTitle": "Отвечаем на частые вопросы",
+  "@OnboardingI18n_faqBodyTitle": {
+    "description": "Отвечаем на частые вопросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqQuestionTitle": "Остались вопросы?",
+  "@OnboardingI18n_faqQuestionTitle": {
+    "description": "Остались вопросы?",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqQuestionDescPart1": "Подробная информация о нашем проекте представлена в разделе ",
+  "@OnboardingI18n_faqQuestionDescPart1": {
+    "description": "Подробная информация о нашем проекте представлена в разделе ",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqQuestionDescPart2": " на сайте нашего проекта. Мы рекомендуем Вам внимательно ознакомиться с представленной там информацией.\n\n",
+  "@OnboardingI18n_faqQuestionDescPart2": {
+    "description": " на сайте нашего проекта. Мы рекомендуем Вам внимательно ознакомиться с представленной там информацией.",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqQuestionDescPart3": "Если у Вас остались вопросы, напишите нам, используя форму ",
+  "@OnboardingI18n_faqQuestionDescPart3": {
+    "description": "Если у Вас остались вопросы, напишите нам, используя форму ",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqQuestionDescPart4": " или по адресу ",
+  "@OnboardingI18n_faqQuestionDescPart4": {
+    "description": " или по адресу ",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqQuestionUserAgreement": "Пользовательское Соглашение",
+  "@OnboardingI18n_faqQuestionUserAgreement": {
+    "description": "Пользовательское Соглашение",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqQuestionSupportForm": "Обратная связь",
+  "@OnboardingI18n_faqQuestionSupportForm": {
+    "description": "Обратная связь",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_faqQuestionSupportEmail": "anketa@internetanketa.ru",
+  "@OnboardingI18n_faqQuestionSupportEmail": {
+    "description": "anketa@internetanketa.ru",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_ropPageTitle": "Подробности о проекте и правилах участия",
+  "@OnboardingI18n_ropPageTitle": {
+    "description": "Подробности о проекте и правилах участия",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_ropSignInButtonTitle": "Зарегистрироваться",
+  "@OnboardingI18n_ropSignInButtonTitle": {
+    "description": "Зарегистрироваться",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OnboardingI18n_ropPageAppBarTitle": "Частые вопросы",
+  "@OnboardingI18n_ropPageAppBarTitle": {
+    "description": "Частые вопросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_title": "Ваши данные",
+  "@ProfileI18n_title": {
+    "description": "Description for Profile title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_profileNotFound": "Профиль не найден",
+  "@ProfileI18n_profileNotFound": {
+    "description": "Description for Profile not found",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_settings": "Настройки",
+  "@ProfileI18n_settings": {
+    "description": "Настройки",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_myProfile": "Мой профиль",
+  "@ProfileI18n_myProfile": {
+    "description": "Мой профиль",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_fill": "Заполнить",
+  "@ProfileI18n_fill": {
+    "description": "Заполнить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_fillProfile": "Заполнить информацию",
+  "@ProfileI18n_fillProfile": {
+    "description": "Заполнить информацию",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_mainInfoTitle": "Основная информация",
+  "@ProfileI18n_mainInfoTitle": {
+    "description": "Основная информация",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_mainQuestionnaire": "Основная анкета",
+  "@ProfileI18n_mainQuestionnaire": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_extendedQuestionnaire": "Расширенные анкеты",
+  "@ProfileI18n_extendedQuestionnaire": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_profileSettings": "Настройки аккаунта",
+  "@ProfileI18n_profileSettings": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_mainInfoText": "Для участия в опросах оставьте, пожалуйста, немного информации о себе",
+  "@ProfileI18n_mainInfoText": {
+    "description": "Для участи в опросах оставьте, пожалуйста, немного информации о себе",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_profileFormTitle": "Данные участника",
+  "@ProfileI18n_profileFormTitle": {
+    "description": "Данные участника",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_profileFormDesc": "Пожалуйста, указывайте ваши реальные данные, т.к. они будут использоваться для вывода баллов",
+  "@ProfileI18n_profileFormDesc": {
+    "description": "Пожалуйста, указывайте ваши реальные данные, т.к. они будут использоваться для вывода баллов",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_fio": "ФИО",
+  "@ProfileI18n_fio": {
+    "description": "ФИО",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_lastName": "Фамилия",
+  "@ProfileI18n_lastName": {
+    "description": "Фамилия",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_firstName": "Имя",
+  "@ProfileI18n_firstName": {
+    "description": "Имя",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_middleName": "Отчество",
+  "@ProfileI18n_middleName": {
+    "description": "Отчество",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_email": "Email",
+  "@ProfileI18n_email": {
+    "description": "Email",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_sex": "Пол",
+  "@ProfileI18n_sex": {
+    "description": "Пол",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_phone": "Телефон",
+  "@ProfileI18n_phone": {
+    "description": "Телефон",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_birthday": "Дата рождения",
+  "@ProfileI18n_birthday": {
+    "description": "День рождения",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_city": "Населенный пункт",
+  "@ProfileI18n_city": {
+    "description": "Населенный пункт",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_region": "Регион",
+  "@ProfileI18n_region": {
+    "description": "Регион",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_adult": "Я получил согласие родителей на участие в Проекте и обработку моих персональных данных",
+  "@ProfileI18n_adult": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_my": "Мой",
+  "@ProfileI18n_my": {
+    "description": "Мой",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_profile": "профиль",
+  "@ProfileI18n_profile": {
+    "description": "профиль",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_fillingProfile": "Заполненность профиля",
+  "@ProfileI18n_fillingProfile": {
+    "description": "Заполненность профиля",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_fillingProfileDescription": "Расскажите о себе подробнее, и мы подберем наиболее подходящие опросы",
+  "@ProfileI18n_fillingProfileDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_phoneNumber": "Номер телефона",
+  "@ProfileI18n_phoneNumber": {
+    "description": "Номер телефона",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_edit": "Редактировать",
+  "@ProfileI18n_edit": {
+    "description": "Редактировать",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_idCardDescription": "Это ваш номер для участия в акциях и розыгрышах",
+  "@ProfileI18n_idCardDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_accountSettings": "Настройки аккаунта",
+  "@ProfileI18n_accountSettings": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_confirmEmailTitle": "Подтвердите почту",
+  "@ProfileI18n_confirmEmailTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_confirmPhoneTitle": "Подтвердите телефон",
+  "@ProfileI18n_confirmPhoneTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_confirmDescription": "Сообщение c кодом подтверждения отправлено на {direction}",
+  "@ProfileI18n_confirmDescription": {
+    "type": "text",
+    "placeholders_order": [
+      "direction"
+    ],
+    "placeholders": {
+      "direction": {}
+    }
+  },
+  "ProfileI18n_otpTimer": "Получить новый код можно через {value}",
+  "@ProfileI18n_otpTimer": {
+    "description": "Получить новый код можно через ",
+    "type": "text",
+    "placeholders_order": [
+      "value"
+    ],
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "ProfileI18n_getOtpTimer": "Отправить код повторно",
+  "@ProfileI18n_getOtpTimer": {
+    "description": "Отправить код повторно",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_confirmBtn": "Отправить",
+  "@ProfileI18n_confirmBtn": {
+    "description": "Отправить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_currentPassword": "Текущий пароль",
+  "@ProfileI18n_currentPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_newPassword": "Новый пароль",
+  "@ProfileI18n_newPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_confirmPassword": "Повторите пароль",
+  "@ProfileI18n_confirmPassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_passwordPatternError": "Неверный формат пароля",
+  "@ProfileI18n_passwordPatternError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_passwordMustMatchError": "Введенные пароли не совпадают",
+  "@ProfileI18n_passwordMustMatchError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_newPasswordSaver": "Новый пароль успешно сохранен",
+  "@ProfileI18n_newPasswordSaver": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_changePassword": "Изменить пароль",
+  "@ProfileI18n_changePassword": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_youSure": "Вы уверены?",
+  "@ProfileI18n_youSure": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_dataNotSave": "Данные не будут сохранены",
+  "@ProfileI18n_dataNotSave": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_addedCityDescription": "Населённого пункта не оказалось в списке. Проверьте написание или добавьте свой населенный пункт вручную",
+  "@ProfileI18n_addedCityDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_addedCityButtonLabel": "Добавить",
+  "@ProfileI18n_addedCityButtonLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_confirmedModelTitle": "Выйти без подтверждения?",
+  "@ProfileI18n_confirmedModelTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_confirmedModelDescription": "Данные не будут сохранены",
+  "@ProfileI18n_confirmedModelDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_yes": "Да",
+  "@ProfileI18n_yes": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_no": "Нет",
+  "@ProfileI18n_no": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_phoneSavedNotification": "Ваш номер телефона успешно сохранен",
+  "@ProfileI18n_phoneSavedNotification": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_emailSavedNotification": "Ваша электронная почта успешно сохранена",
+  "@ProfileI18n_emailSavedNotification": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_patternError": "Недопустимые символы",
+  "@ProfileI18n_patternError": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_onlyRussianLetters": "Допустимы только русские буквы и дефис в середине",
+  "@ProfileI18n_onlyRussianLetters": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProfileI18n_lengthError": "Максимальная длина {length} символов",
+  "@ProfileI18n_lengthError": {
+    "type": "text",
+    "placeholders_order": [
+      "length"
+    ],
+    "placeholders": {
+      "length": {}
+    }
+  },
+  "SettingsI18n_title": "Настройки",
+  "@SettingsI18n_title": {
+    "description": "Settings page",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_theme": "Theme",
+  "@SettingsI18n_theme": {
+    "description": "Theme",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_lightTheme": "Light",
+  "@SettingsI18n_lightTheme": {
+    "description": "Light theme",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_darkTheme": "Dark",
+  "@SettingsI18n_darkTheme": {
+    "description": "Dark theme",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_systemTheme": "System",
+  "@SettingsI18n_systemTheme": {
+    "description": "System theme",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_selectTheme": "Select a theme",
+  "@SettingsI18n_selectTheme": {
+    "description": "Select a theme",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_selectLanguage": "Select language",
+  "@SettingsI18n_selectLanguage": {
+    "description": "Select language",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_systemLanguage": "System language",
+  "@SettingsI18n_systemLanguage": {
+    "description": "System language",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_changePinCode": "Изменить код входа",
+  "@SettingsI18n_changePinCode": {
+    "description": "Изменить код входа",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_useBiometrics": "Use biometrics?",
+  "@SettingsI18n_useBiometrics": {
+    "description": "Use biometrics?",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_useLocalAuth": "Use local auth?",
+  "@SettingsI18n_useLocalAuth": {
+    "description": "Use local auth?",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_signOut": "Выйти из аккаунта",
+  "@SettingsI18n_signOut": {
+    "description": "Выйти из аккаунта",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_signOutConfirmTitle": "Выйти из аккаунта?",
+  "@SettingsI18n_signOutConfirmTitle": {
+    "description": "Выйти из аккаунта?",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_signOutConfirmDescription": "При следующем входе вам нужно будет заново авторизоваться в приложении",
+  "@SettingsI18n_signOutConfirmDescription": {
+    "description": "При следующем входе вам нужно будет заново авторизоваться в приложении",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_signOutConfirmNoBtn": "Не выходить",
+  "@SettingsI18n_signOutConfirmNoBtn": {
+    "description": "Не выходить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_signOutConfirmYesBtn": "Выйти",
+  "@SettingsI18n_signOutConfirmYesBtn": {
+    "description": "Выйти",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_deleteAccount": "Для удаления аккаунта нажмите здесь",
+  "@SettingsI18n_deleteAccount": {
+    "description": "Для удаления аккаунта нажмите здесь",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_deleteAccountLinkText": "здесь",
+  "@SettingsI18n_deleteAccountLinkText": {
+    "description": "здесь",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_deleteAccountBtn": "Удалить аккаунт",
+  "@SettingsI18n_deleteAccountBtn": {
+    "description": "Удалить аккаунт",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_deleteAccountConfirmTitle": "Удалить аккаунт?",
+  "@SettingsI18n_deleteAccountConfirmTitle": {
+    "description": "Удалить аккаунт?",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_deleteAccountSuccessTitle": "Ваш аккаунт был удален",
+  "@SettingsI18n_deleteAccountSuccessTitle": {
+    "description": "Ваш аккаунт был удален",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_deleteAccountConfirmDescription": "При удалении акканунта все данные, в том числе накопленные баллы, будут удаленны",
+  "@SettingsI18n_deleteAccountConfirmDescription": {
+    "description": "При удалении акканунта все данные, в том числе накопленные баллы, будут удаленны",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_deleteAccountConfirmNoBtn": "Не удалять",
+  "@SettingsI18n_deleteAccountConfirmNoBtn": {
+    "description": "Не удалять",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_deleteAccountConfirmYesBtn": "Удалить",
+  "@SettingsI18n_deleteAccountConfirmYesBtn": {
+    "description": "Удалить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_rulesTitle": "Правила участия",
+  "@SettingsI18n_rulesTitle": {
+    "description": "Правила участия",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_faqTitle": "Частые вопросы",
+  "@SettingsI18n_faqTitle": {
+    "description": "Частые вопросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SettingsI18n_supportTitle": "Поддержка",
+  "@SettingsI18n_supportTitle": {
+    "description": "Поддержка",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_forbiddenError": "Forbidden",
+  "@CoreI18n_forbiddenError": {
+    "description": "Http Error forbidden",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_internalError": "Internal Error",
+  "@CoreI18n_internalError": {
+    "description": "Server Internal Error",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_serviceUnavailableError": "Service Unavaliable",
+  "@CoreI18n_serviceUnavailableError": {
+    "description": "Service Unavaliable Error",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_notFoundError": "Not found",
+  "@CoreI18n_notFoundError": {
+    "description": "Not found Error",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_unknownError": "Unknown Error",
+  "@CoreI18n_unknownError": {
+    "description": "Unknown Error",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_unprocessableEntityError": "Unprocessable Entity error",
+  "@CoreI18n_unprocessableEntityError": {
+    "description": "Unknown Error",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_signOut": "Выйти",
+  "@CoreI18n_signOut": {
+    "description": "Выйти",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_continueBtn": "Продолжить",
+  "@CoreI18n_continueBtn": {
+    "description": "Продолжить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_requiredErrorMessage": "Обязательный параметр",
+  "@CoreI18n_requiredErrorMessage": {
+    "description": "Field must not be empty",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_maxValueErrorMessage": "Длина значения более {value} символов",
+  "@CoreI18n_maxValueErrorMessage": {
+    "description": "maxValueErrorMessage",
+    "type": "text",
+    "placeholders_order": [
+      "value"
+    ],
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "CoreI18n_minValueErrorMessage": "Длина значения менее {value} символов",
+  "@CoreI18n_minValueErrorMessage": {
+    "description": "minValueErrorMessage",
+    "type": "text",
+    "placeholders_order": [
+      "value"
+    ],
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "CoreI18n_emailErrorMessage": "Почтовый адрес указан неверно",
+  "@CoreI18n_emailErrorMessage": {
+    "description": "email not valid",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_save": "Сохранить",
+  "@CoreI18n_save": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_note": "Отменить",
+  "@CoreI18n_note": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_backButtonCaption": "Назад",
+  "@CoreI18n_backButtonCaption": {
+    "description": "Назад",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CoreI18n_saveChanges": "Сохранить изменения",
+  "@CoreI18n_saveChanges": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_title": "Обмен баллов",
+  "@BonusesI18n_title": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_passportTitle": "Паспортные данные",
+  "@BonusesI18n_passportTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_fileTitle": "Приложенные файлы",
+  "@BonusesI18n_fileTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_select": "Выбрать",
+  "@BonusesI18n_select": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_passportDescription": "Вы сможете изменить данные после того, как будет пройдена верификация",
+  "@BonusesI18n_passportDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_passportVerificationData": "Данные на верификации",
+  "@BonusesI18n_passportVerificationData": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_writheTabLabel": "Способы обмена",
+  "@BonusesI18n_writheTabLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_conditionsTabLabel": "Условия использования",
+  "@BonusesI18n_conditionsTabLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_questionsTabLabel": "Частые вопросы",
+  "@BonusesI18n_questionsTabLabel": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_withdrawalLimitExceeded": "Превышен лимит обмена баллов",
+  "@BonusesI18n_withdrawalLimitExceeded": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_withdrawalLimitExceededDescription": "Вы можете обменять не более 2 500 баллов в течение календарного года",
+  "@BonusesI18n_withdrawalLimitExceededDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformation": "Общая информация",
+  "@BonusesI18n_generalInformation": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_getPassportInfoButton": "Заполнить паспортные данные",
+  "@BonusesI18n_getPassportInfoButton": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationBonusesTitle": "Баллы",
+  "@BonusesI18n_generalInformationBonusesTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationBonusesDescription": "Баллы можно использовать для пополнения личной банковской карты и счета мобильного телефона",
+  "@BonusesI18n_generalInformationBonusesDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationBonusesMinCountTitle": "1 000 ₽",
+  "@BonusesI18n_generalInformationBonusesMinCountTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationBonusesMinCountDescription": "Минимальный перевод на вашу банковскую карту",
+  "@BonusesI18n_generalInformationBonusesMinCountDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationBonusesMinCountPhoneTitle": "500 ₽",
+  "@BonusesI18n_generalInformationBonusesMinCountPhoneTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationBonusesMinCountPhoneDescription": "Минимальная сумма пополнения счета мобильного телефона ",
+  "@BonusesI18n_generalInformationBonusesMinCountPhoneDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationBonusesMinBonusesTitle": "2 999 баллов",
+  "@BonusesI18n_generalInformationBonusesMinBonusesTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationBonusesMinBonusesDescription": "Максимальная сумма баллов, которые можно обменять в год",
+  "@BonusesI18n_generalInformationBonusesMinBonusesDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationTitle": "Детальная информация",
+  "@BonusesI18n_generalInformationTitle": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_generalInformationDescription": "С детальной информацией о правилах обмена баллов можно ознакомиться в документах в разделе `«Условия использования»`",
+  "@BonusesI18n_generalInformationDescription": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_lastName": "Фамилия",
+  "@BonusesI18n_lastName": {
+    "description": "Фамилия",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_firstName": "Имя",
+  "@BonusesI18n_firstName": {
+    "description": "Имя",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_middleName": "Отчество",
+  "@BonusesI18n_middleName": {
+    "description": "Отчество",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_birthday": "Дата рождения",
+  "@BonusesI18n_birthday": {
+    "description": "День рождения",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_iin": "ИНН",
+  "@BonusesI18n_iin": {
+    "description": "ИНН",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_passportSeriesAndNumber": "Серия и номер паспорта",
+  "@BonusesI18n_passportSeriesAndNumber": {
+    "description": "Серия и номер паспорта",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_dateOfIssue": "Дата выдачи",
+  "@BonusesI18n_dateOfIssue": {
+    "description": "Дата выдачи",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_issuedBy": "Кем выдан",
+  "@BonusesI18n_issuedBy": {
+    "description": "Кем выдан",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_registrationAddress": "Адрес регистрации",
+  "@BonusesI18n_registrationAddress": {
+    "description": "Адрес регистрации",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_personalDataTitle": "Личные данные",
+  "@BonusesI18n_personalDataTitle": {
+    "description": "Личные данные",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_personalDataDescription": "Пожалуйста, указывайте ваши реальные данные",
+  "@BonusesI18n_personalDataDescription": {
+    "description": "Пожалуйста, указывайте ваши реальные данные",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_sendDataButton": "Отправить данные на проверку",
+  "@BonusesI18n_sendDataButton": {
+    "description": "Отправить данные на проверку",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_consentPersonalData": "Я согласен на `хранение, обработку и передачу паспортных данных`",
+  "@BonusesI18n_consentPersonalData": {
+    "description": "Отправить данные на проверку",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_firstPagePassportScan": "Скан первой страницы паспорта",
+  "@BonusesI18n_firstPagePassportScan": {
+    "description": "Скан первой страницы паспорта",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_registrationPagePassportScan": "Скан страницы паспорта с регистрацией",
+  "@BonusesI18n_registrationPagePassportScan": {
+    "description": "Скан страницы паспорта с регистрацией",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_fileFieldTitle": "Выберите или перетащите файл в эту область",
+  "@BonusesI18n_fileFieldTitle": {
+    "description": "Выберите или перетащите файл в эту область",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_fileFieldFormats": "Форматы PDF, JPG, JPEG, PNG, до 10 МБ",
+  "@BonusesI18n_fileFieldFormats": {
+    "description": "Форматы PDF, JPG, JPEG, PNG, до 10 МБ",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_writingOffCouponsTitle": "Подарочные сертификаты",
+  "@BonusesI18n_writingOffCouponsTitle": {
+    "description": "Подарочные сертификаты",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_writingOffCouponsDescription": "Покупайте сертификаты за бонусные баллы на Ozon,WB, Золотое Яблоко, М.Видео и многие другие магазины",
+  "@BonusesI18n_writingOffCouponsDescription": {
+    "description": "Покупайте сертификаты за бонусные баллы на Ozon,WB, Золотое Яблоко, М.Видео и многие другие магазины",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_writingOffCardTitle": "Перевод на карту",
+  "@BonusesI18n_writingOffCardTitle": {
+    "description": "Перевод на карту",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_writingOffCardDescription": "Выводите бонусные баллы сразу на вашу банковскую карту и тратьте на любые покупки",
+  "@BonusesI18n_writingOffCardDescription": {
+    "description": "Выводите бонусные баллы сразу на вашу банковскую карту и тратьте на любые покупки",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_writingOffCardTooltipText": "Для перевода на карту необходимо указать ваши реальные данные: ФИО, документы, удостоверяющие личность, и номер карты",
+  "@BonusesI18n_writingOffCardTooltipText": {
+    "description": "Для перевода на карту необходимо указать ваши реальные данные: ФИО, документы удостоверяющие личность и номер карты",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_writingOffPhoneTitle": "Пополнение счета телефона",
+  "@BonusesI18n_writingOffPhoneTitle": {
+    "description": "Пополнение счета телефона",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_writingOffPhoneDescription": "Оплачивайте услуги мобильной связи при помощи бонусных баллов",
+  "@BonusesI18n_writingOffPhoneDescription": {
+    "description": "Оплачивайте услуги мобильной связи при помощи бонусных баллов",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_userAmountIsLessAvailable": "Станет доступно от {availableAmount} баллов",
+  "@BonusesI18n_userAmountIsLessAvailable": {
+    "description": "Предупреждение, что счет пользователя меньше разрешеного",
+    "type": "text",
+    "placeholders_order": [
+      "availableAmount"
+    ],
+    "placeholders": {
+      "availableAmount": {}
+    }
+  },
+  "BonusesI18n_exchangeBonusesUnavailable": "Обмен баллов временно недоступен",
+  "@BonusesI18n_exchangeBonusesUnavailable": {
+    "description": "Обмен баллов временно недоступен",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_exchangeBonusesUnavailableDescription": "Ориентировочно, сервис обмена баллов будет доступен с 28.11.2024 ",
+  "@BonusesI18n_exchangeBonusesUnavailableDescription": {
+    "description": "Ориентировочно, сервис обмена баллов будет доступен с 28.11.2024 ",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_maxSumYearAttention": "Превышен лимит вывода средств",
+  "@BonusesI18n_maxSumYearAttention": {
+    "description": "Превышен лимит вывода средств",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_maxSumYearAttentionDescription": "Вы можете вывести не более 4 000 баллов в течение календарного года",
+  "@BonusesI18n_maxSumYearAttentionDescription": {
+    "description": "Вы можете вывести не более 4 000 баллов в течение календарного года",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_personalData": "Сбор, обработка, передача персональных данных",
+  "@BonusesI18n_personalData": {
+    "description": "Сбор, обработка, передача персональных данных",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_userAgreement": "Пользовательское соглашение",
+  "@BonusesI18n_userAgreement": {
+    "description": "Пользовательское соглашение",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_offerCard": "Оферта об организации и осуществлении расчетов по переводу денежных средств по номеру платежной карты",
+  "@BonusesI18n_offerCard": {
+    "description": "Оферта об организации и осуществлении расчетов по переводу денежных средств по номеру платежной карты",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_offerPhone": "Оферта об организации и осуществлении расчетов по переводу денежных средств по номеру телефона",
+  "@BonusesI18n_offerPhone": {
+    "description": "Оферта об организации и осуществлении расчетов по переводу денежных средств по номеру телефона",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_listOfPartners": "Перечень партнеров, участвующих в конвертации баллов",
+  "@BonusesI18n_listOfPartners": {
+    "description": "Перечень партнеров, участвующих в конвертации баллов",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_yourBonuses": "    Ваши баллы",
+  "@BonusesI18n_yourBonuses": {
+    "description": "Description for Bonuses your bonuses",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_writeOffMethods": "Способы списания",
+  "@BonusesI18n_writeOffMethods": {
+    "description": "Способы списания",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_termsOfUse": "Условия использования",
+  "@BonusesI18n_termsOfUse": {
+    "description": "Условия использования",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "BonusesI18n_frequentQuestions": "Частые вопросы",
+  "@BonusesI18n_frequentQuestions": {
+    "description": "Частые вопросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_terms": "{value,select, i0{Данные владельца карты должны совпадать с вашими данными, указанными в профиле}i1{Выводить баллы можно только на свою карту}i2{Изменение ФИО в профиле возможно через обращение в службу поддержки}i3{Минимальный перевод – 1000 баллов}i4{Перевод осуществляется в течение 3-х рабочих дней}other{}}",
+  "@CardI18n_terms": {
+    "description": "terms",
+    "type": "text",
+    "placeholders_order": [
+      "value"
+    ],
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "CardI18n_cardNumber": "Номер карты",
+  "@CardI18n_cardNumber": {
+    "description": "cardNumber",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_validityPeriod": "Номер карты",
+  "@CardI18n_validityPeriod": {
+    "description": "validityPeriod",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_withdrawalOfPoints": "Обмен баллов",
+  "@CardI18n_withdrawalOfPoints": {
+    "description": "withdrawalOfPoints",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_transferToCard": "Перевод на карту",
+  "@CardI18n_transferToCard": {
+    "description": "transferToCard",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_cardHolderDetailsTitle": "Ваши данные",
+  "@CardI18n_cardHolderDetailsTitle": {
+    "description": "cardHolderDetailsTitle",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_provideRealData": "Пожалуйста, указывайте ваши реальные данные",
+  "@CardI18n_provideRealData": {
+    "description": "provideRealData",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_cardData": "Данные карты",
+  "@CardI18n_cardData": {
+    "description": "cardData",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_withdrawalAmount": "Сумма обмена",
+  "@CardI18n_withdrawalAmount": {
+    "description": "withdrawalAmount",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_approvalPdn": "Я согласен с условиями `Обработки и передачи персональных данных`",
+  "@CardI18n_approvalPdn": {
+    "description": "approvalPdn",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_approvalOfferCalculationsByCard": "Я согласен  с условиями `Оферты об организации и осуществлении расчетов по переводу денежных средств по номеру платежной карты`",
+  "@CardI18n_approvalOfferCalculationsByCard": {
+    "description": "approvalOfferCalculationsByCard",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_approvalPartnerList": "Я согласен  с `Перечнем партнеров, участвующих в конвертации баллов`",
+  "@CardI18n_approvalPartnerList": {
+    "description": "approvalPartnerList",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_approvalListOfPartners": "Я согласен с `Перечнем партнеров, участвующих в конвертации баллов`",
+  "@CardI18n_approvalListOfPartners": {
+    "description": "approvalListOfPartners",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_exchange": "Обменять",
+  "@CardI18n_exchange": {
+    "description": "exchange",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_fioErrorStart": "Заполненные данные не совпадают с данными, указанными в профиле. Проверьте правильность введенных данных. Если вам нужно изменить ФИО в профиле, ",
+  "@CardI18n_fioErrorStart": {
+    "description": "fioErrorStart",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_fioErrorEnd": "обратитесь в поддержку",
+  "@CardI18n_fioErrorEnd": {
+    "description": "fioErrorEnd",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_requiredField": "Это поле обязательно для заполнения",
+  "@CardI18n_requiredField": {
+    "description": "requiredField",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_incorrectCreditCardFormatError": "Неверный формат",
+  "@CardI18n_incorrectCreditCardFormatError": {
+    "description": "incorrectCreditCardFormatError",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_minSumCardError": "Вы не можете вывести меньше положенного лимита – {amount} ₽",
+  "@CardI18n_minSumCardError": {
+    "description": "minSumCardError",
+    "type": "text",
+    "placeholders_order": [
+      "amount"
+    ],
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "CardI18n_amountError": "Вы не можете вывести больше положенного лимита – {amount} ₽",
+  "@CardI18n_amountError": {
+    "description": "amountError",
+    "type": "text",
+    "placeholders_order": [
+      "amount"
+    ],
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "CardI18n_maxSumTransactionError": "Вы не можете вывести больше {amount} ₽ за раз",
+  "@CardI18n_maxSumTransactionError": {
+    "description": "maxSumTransactionError",
+    "type": "text",
+    "placeholders_order": [
+      "amount"
+    ],
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "CardI18n_availableSpendAmountError": "Превышен лимит вывода средств за год - {maxSumYear} ₽\nДоступный остаток - {amount} ₽",
+  "@CardI18n_availableSpendAmountError": {
+    "description": "availableSpendAmountError",
+    "type": "text",
+    "placeholders_order": [
+      "amount",
+      "maxSumYear"
+    ],
+    "placeholders": {
+      "amount": {},
+      "maxSumYear": {}
+    }
+  },
+  "CardI18n_confirmDialogDesc": "С вашего бонусного счета будет списано",
+  "@CardI18n_confirmDialogDesc": {
+    "description": "confirmDialogDesc",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_transferToCardNumber": "Перевод на карту **** **** **** {lastDigits}",
+  "@CardI18n_transferToCardNumber": {
+    "description": "transferToCardNumber",
+    "type": "text",
+    "placeholders_order": [
+      "lastDigits"
+    ],
+    "placeholders": {
+      "lastDigits": {}
+    }
+  },
+  "CardI18n_cancel": "Отмена",
+  "@CardI18n_cancel": {
+    "description": "cancel",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_confirm": "Подтвердить",
+  "@CardI18n_confirm": {
+    "description": "confirm",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_good": "Хорошо",
+  "@CardI18n_good": {
+    "description": "good",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_transferInProcess": "Перевод в обработке",
+  "@CardI18n_transferInProcess": {
+    "description": "transferInProccess",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_transferInProcessDesc": "Ожидайте зачисления на указанную карту в течение 3-х рабочих дней",
+  "@CardI18n_transferInProcessDesc": {
+    "description": "transferInProccessDesc",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_transferInProcessDesc2Start": "Информацию по выводу баллов можно посмотреть в разделе ",
+  "@CardI18n_transferInProcessDesc2Start": {
+    "description": "transferInProccessDesc2Start",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "CardI18n_transferInProcessDesc2End": "`История операций`",
+  "@CardI18n_transferInProcessDesc2End": {
+    "description": "transferInProccessDesc2End",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_terms": "{value,select, i0{Личные данные должны совпадать с вашими данными, указанными в профиле}i1{Вы можете пополнить счет телефона не только себе, но и своим друзьям, знакомым или членам семьи}i2{Изменение ФИО в профиле возможно через обращение в службу поддержки}other{}}",
+  "@PhoneI18n_terms": {
+    "description": "terms",
+    "type": "text",
+    "placeholders_order": [
+      "value"
+    ],
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "PhoneI18n_withdrawalOfPoints": "Обмен баллов",
+  "@PhoneI18n_withdrawalOfPoints": {
+    "description": "withdrawalOfPoints",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_transferToPhone": "Пополнение счета телефона",
+  "@PhoneI18n_transferToPhone": {
+    "description": "transferToPhone",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_cardHolderDetailsTitle": "Ваши данные",
+  "@PhoneI18n_cardHolderDetailsTitle": {
+    "description": "cardHolderDetailsTitle",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_provideRealData": "Пожалуйста, указывайте ваши реальные данные",
+  "@PhoneI18n_provideRealData": {
+    "description": "provideRealData",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_phoneData": "Данные оператора сотовой связи",
+  "@PhoneI18n_phoneData": {
+    "description": "phoneData",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_withdrawalAmount": "Сумма обмена",
+  "@PhoneI18n_withdrawalAmount": {
+    "description": "withdrawalAmount",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_approvalPdn": "Я согласен с условиями `Обработки и передачи персональных данных`",
+  "@PhoneI18n_approvalPdn": {
+    "description": "approvalPdn",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_approvalOfferCalculationsByCard": "Я согласен  с условиями `Оферты об организации и осуществлении расчетов по переводу денежных средств по номеру телефона`",
+  "@PhoneI18n_approvalOfferCalculationsByCard": {
+    "description": "approvalOfferCalculationsByCard",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_approvalPartnerList": "Я согласен  с `Перечнем партнеров, участвующих в конвертации баллов`",
+  "@PhoneI18n_approvalPartnerList": {
+    "description": "approvalPartnerList",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_approvalListOfPartners": "Я согласен с `Перечнем партнеров, участвующих в конвертации баллов`",
+  "@PhoneI18n_approvalListOfPartners": {
+    "description": "approvalListOfPartners",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_exchange": "Обменять",
+  "@PhoneI18n_exchange": {
+    "description": "exchange",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_fioErrorStart": "Заполненные данные не совпадают с данными, указанными в профиле. Проверьте правильность введенных данных. Если вам нужно изменить ФИО в профиле, ",
+  "@PhoneI18n_fioErrorStart": {
+    "description": "fioErrorStart",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_fioErrorEnd": "обратитесь в поддержку",
+  "@PhoneI18n_fioErrorEnd": {
+    "description": "fioErrorEnd",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_requiredField": "Это поле обязательно для заполнения",
+  "@PhoneI18n_requiredField": {
+    "description": "requiredField",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_minSumMobileError": "Вы не можете вывести меньше положенного лимита – {amount} ₽",
+  "@PhoneI18n_minSumMobileError": {
+    "description": "minSumMobileError",
+    "type": "text",
+    "placeholders_order": [
+      "amount"
+    ],
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "PhoneI18n_amountError": "Вы не можете вывести больше положенного лимита – {amount} ₽",
+  "@PhoneI18n_amountError": {
+    "description": "amountError",
+    "type": "text",
+    "placeholders_order": [
+      "amount"
+    ],
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "PhoneI18n_maxSumTransactionError": "Вы не можете вывести больше {amount} ₽ за раз",
+  "@PhoneI18n_maxSumTransactionError": {
+    "description": "maxSumTransactionError",
+    "type": "text",
+    "placeholders_order": [
+      "amount"
+    ],
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "PhoneI18n_availableSpendAmountError": "Превышен лимит вывода средств за год - {maxSumYear} ₽\nДоступный остаток - {amount} ₽",
+  "@PhoneI18n_availableSpendAmountError": {
+    "description": "availableSpendAmountError",
+    "type": "text",
+    "placeholders_order": [
+      "amount",
+      "maxSumYear"
+    ],
+    "placeholders": {
+      "amount": {},
+      "maxSumYear": {}
+    }
+  },
+  "PhoneI18n_confirmDialogDesc": "С вашего бонусного счета будет списано",
+  "@PhoneI18n_confirmDialogDesc": {
+    "description": "confirmDialogDesc",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_transferToPhoneNumber": "Перевод на номер телефона\n{phone}",
+  "@PhoneI18n_transferToPhoneNumber": {
+    "description": "transferToPhoneNumber",
+    "type": "text",
+    "placeholders_order": [
+      "phone"
+    ],
+    "placeholders": {
+      "phone": {}
+    }
+  },
+  "PhoneI18n_cancel": "Отмена",
+  "@PhoneI18n_cancel": {
+    "description": "cancel",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_confirm": "Подтвердить",
+  "@PhoneI18n_confirm": {
+    "description": "confirm",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_good": "Хорошо",
+  "@PhoneI18n_good": {
+    "description": "good",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_transferInProcess": "Перевод в обработке",
+  "@PhoneI18n_transferInProcess": {
+    "description": "transferInProccess",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_transferInProcessDesc": "Ожидайте зачисления на указанную карту в течение 3-х рабочих дней",
+  "@PhoneI18n_transferInProcessDesc": {
+    "description": "transferInProccessDesc",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_transferInProcessDesc2Start": "Информацию по выводу баллов можно посмотреть в разделе ",
+  "@PhoneI18n_transferInProcessDesc2Start": {
+    "description": "transferInProccessDesc2Start",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_transferInProcessDesc2End": "`История операций`",
+  "@PhoneI18n_transferInProcessDesc2End": {
+    "description": "transferInProccessDesc2End",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_phone": "Телефон",
+  "@PhoneI18n_phone": {
+    "description": "phone",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_operator": "Оператор",
+  "@PhoneI18n_operator": {
+    "description": "operator",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_operatorError": "Некорректный телефонный номер (неизвестный оператор)",
+  "@PhoneI18n_operatorError": {
+    "description": "Некорректный телефонный номер (неизвестный оператор)",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "PhoneI18n_fieldPhoneFormatError": "Не соответствует формату +x xxx xxx-xx-xx",
+  "@PhoneI18n_fieldPhoneFormatError": {
+    "description": "Не соответствует формату +x xxx xxx-xx-xx",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_title": "Главная",
+  "@HomeI18n_title": {
+    "description": "Главная",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_fillMainInfo": "Заполните основную\nинформацию",
+  "@HomeI18n_fillMainInfo": {
+    "description": "Заполните основную информацию",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_fillMainInfoDescription": "Новые опросы станут доступны после\nзаполнения основной информации",
+  "@HomeI18n_fillMainInfoDescription": {
+    "description": "Новые опросы станут доступны после заполнения основной информации",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_fillBtn": "Заполнить",
+  "@HomeI18n_fillBtn": {
+    "description": "Заполнить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_welcome": "Добро пожаловать",
+  "@HomeI18n_welcome": {
+    "description": "Добро пожаловать",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_availablePolls": "Доступные опросы",
+  "@HomeI18n_availablePolls": {
+    "description": "Доступные опросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_fillProfile": "Заполните профиль",
+  "@HomeI18n_fillProfile": {
+    "description": "Заполните профиль",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_fillProfileDesc": "Новые опросы станут доступны после заполнения основной информации",
+  "@HomeI18n_fillProfileDesc": {
+    "description": "Новые опросы станут доступны после заполнения основной информации",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_fillProfileCompleted": "Заполненность профиля",
+  "@HomeI18n_fillProfileCompleted": {
+    "description": "Заполненность профиля",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_newPollsTitle": "Здесь появятся новые опросы",
+  "@HomeI18n_newPollsTitle": {
+    "description": "Здесь появятся новые опросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_newPollsDesc": "Чтобы получать больше опросов заполните расширенную анкету профиля",
+  "@HomeI18n_newPollsDesc": {
+    "description": "Чтобы получать больше опросов заполните расширенную анкету профиля",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_moreDetailsBtn": "Подробнее",
+  "@HomeI18n_moreDetailsBtn": {
+    "description": "Подробнее",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_bonuses": "Ваши баллы",
+  "@HomeI18n_bonuses": {
+    "description": "Ваши баллы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_withdrawalButtonLabel": "Вывести",
+  "@HomeI18n_withdrawalButtonLabel": {
+    "description": "Вывести",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_bonusesDesc": "1 балл = 1 ₽",
+  "@HomeI18n_bonusesDesc": {
+    "description": "1 балл = 1 ₽",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_newUserStatusTitle": "Новичок",
+  "@HomeI18n_newUserStatusTitle": {
+    "description": "Новичок",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_newUserStatusDesc": "До нового статуса осталось совсем чуть–чуть",
+  "@HomeI18n_newUserStatusDesc": {
+    "description": "До нового статуса осталось совсем чуть–чуть",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "HomeI18n_profileForms": "Анкеты профиля",
+  "@HomeI18n_profileForms": {
+    "description": "Анкеты профиля",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MainI18n_homeBottomMenuItem": "Главная",
+  "@MainI18n_homeBottomMenuItem": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MainI18n_menuBottomMenuItem": "Меню",
+  "@MainI18n_menuBottomMenuItem": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MainI18n_profileBottomMenuItem": "Профиль",
+  "@MainI18n_profileBottomMenuItem": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MainI18n_supportBottomMenuItem": "Поддержка",
+  "@MainI18n_supportBottomMenuItem": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MainI18n_surveyArchive": "Архив опросов",
+  "@MainI18n_surveyArchive": {
+    "description": "Архив опросов",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MenuI18n_title": "Меню",
+  "@MenuI18n_title": {
+    "description": "Меню",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MenuI18n_withdraw": "Вывести баллы",
+  "@MenuI18n_withdraw": {
+    "description": "Вывести баллы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MenuI18n_history": "История начислений",
+  "@MenuI18n_history": {
+    "description": "История начислений",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MenuI18n_archive": "Архив опросов",
+  "@MenuI18n_archive": {
+    "description": "Архив опросов",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MenuI18n_rules": "Правила участия",
+  "@MenuI18n_rules": {
+    "description": "Правила участия",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MenuI18n_faq": "Частые вопросы",
+  "@MenuI18n_faq": {
+    "description": "Частые вопросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MenuI18n_faqPageTitle": "Отвечаем на частые вопросы",
+  "@MenuI18n_faqPageTitle": {
+    "description": "Отвечаем на частые вопросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MenuI18n_rulesPageTitle": "Подробности о проекте и правилах участия",
+  "@MenuI18n_rulesPageTitle": {
+    "description": "Подробности о проекте и правилах участия",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "MenuI18n_operationsHistoryTitle": "История операций",
+  "@MenuI18n_operationsHistoryTitle": {
+    "description": "История операций",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OperationsI18n_historyPageTitle": "История операций",
+  "@OperationsI18n_historyPageTitle": {
+    "description": "Заголовок страницы истории операций",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OperationsI18n_all": "Все",
+  "@OperationsI18n_all": {
+    "description": "all",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OperationsI18n_operationType": "{type,select, spending{Списание}charging{Начисление}refund{Возврат}}",
+  "@OperationsI18n_operationType": {
+    "description": "operationType",
+    "type": "text",
+    "placeholders_order": [
+      "type"
+    ],
+    "placeholders": {
+      "type": {}
+    }
+  },
+  "OperationsI18n_operationReason": "{reason,select, take_survey{Опрос: {reasonUid}}questionnaire{Опрос: {reasonUid}}raffle{Розыгрыши и др. активности}gift_certificate{Подарочный сертификат}money_transfer_card{Банковская карта}charity{Благотворительность}gifts{Подарки}topping_up{Баланс телефона}}",
+  "@OperationsI18n_operationReason": {
+    "description": "operationReason",
+    "type": "text",
+    "placeholders_order": [
+      "reason",
+      "reasonUid",
+      "title"
+    ],
+    "placeholders": {
+      "reason": {},
+      "reasonUid": {},
+      "title": {}
+    }
+  },
+  "OperationsI18n_statusActive": "В обработке",
+  "@OperationsI18n_statusActive": {
+    "description": "В обработке",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OperationsI18n_statusCancelled": "Операция отклонена",
+  "@OperationsI18n_statusCancelled": {
+    "description": "Операция отклонена",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OperationsI18n_statusCompleted": "Операция завершена",
+  "@OperationsI18n_statusCompleted": {
+    "description": "Операция завершена",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OperationsI18n_dropdownRangeName": "{filter,select, days{30 дней}months{6 месяцев}years{Год}allTime{За всё время}custom{Задать вручную}}",
+  "@OperationsI18n_dropdownRangeName": {
+    "description": "dropdownRangeName",
+    "type": "text",
+    "placeholders_order": [
+      "filter"
+    ],
+    "placeholders": {
+      "filter": {}
+    }
+  },
+  "OperationsI18n_selectRangeButtonLabel": "Выбрать период",
+  "@OperationsI18n_selectRangeButtonLabel": {
+    "description": "selectRangeButtonLabel",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OperationsI18n_today": "Сегодня",
+  "@OperationsI18n_today": {
+    "description": "today",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OperationsI18n_yesterday": "Вчера",
+  "@OperationsI18n_yesterday": {
+    "description": "yesterday",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "OperationsI18n_operationInReason": "{reason,select, take_survey{Опрос: {projectNameResp}}questionnaire{Расширенная анкета: {title}}raffle{Розыгрыши и др. активности}gift_certificate{Подарочный сертификат}money_transfer_card{Банковская карта}charity{Благотворительность}gifts{Подарки}topping_up{Баланс телефона}other{Error other}}",
+  "@OperationsI18n_operationInReason": {
+    "description": "operationInReason",
+    "type": "text",
+    "placeholders_order": [
+      "reason",
+      "reasonUid",
+      "title",
+      "projectNameResp"
+    ],
+    "placeholders": {
+      "reason": {},
+      "reasonUid": {},
+      "title": {},
+      "projectNameResp": {}
+    }
+  },
+  "ProjectsI18n_title": "operations title",
+  "@ProjectsI18n_title": {
+    "description": "Description for Projects title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_operationsNotFound": "Projects not found",
+  "@ProjectsI18n_operationsNotFound": {
+    "description": "Description for Projects not found",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_projectsTitle": "Доступные опросы",
+  "@ProjectsI18n_projectsTitle": {
+    "description": "Доступные опросы",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_fillProfile": "Заполните профиль",
+  "@ProjectsI18n_fillProfile": {
+    "description": "Заполните профиль",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_newPollsWillAppearHere": "Здесь появятся новые опросы",
+  "@ProjectsI18n_newPollsWillAppearHere": {
+    "description": "Заполните профиль",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_allProjectsDone": "Вы прошли все опросы!",
+  "@ProjectsI18n_allProjectsDone": {
+    "description": "Заполните профиль",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_allProjectsDoneDesc": "Продолжайте в том же духе. Скоро мы пригласим вас поучаствовать в новых опросах. А пока можете ",
+  "@ProjectsI18n_allProjectsDoneDesc": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_withdrawAccumulatedPoints": "обменять накопившиеся баллы",
+  "@ProjectsI18n_withdrawAccumulatedPoints": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_incomplete": "Не завершён",
+  "@ProjectsI18n_incomplete": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_fillProfileDescription": "{index,select, i0{Чтобы получать опросы, заполните }i1{личные данные}i2{ в профиле}}",
+  "@ProjectsI18n_fillProfileDescription": {
+    "description": "fillProfileDescription",
+    "type": "text",
+    "placeholders_order": [
+      "index"
+    ],
+    "placeholders": {
+      "index": {}
+    }
+  },
+  "ProjectsI18n_needToConfirmPhoneNumberTitle": "Необходимо подтвердить номер телефона",
+  "@ProjectsI18n_needToConfirmPhoneNumberTitle": {
+    "description": "needToConfirmPhoneNumberTitle",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_needToConfirmPhoneNumberDescription": "{index,select, i0{Чтобы подтвердить номер телефона перейдите в }i1{Основную анкету}i2{ профиля}}",
+  "@ProjectsI18n_needToConfirmPhoneNumberDescription": {
+    "description": "needToConfirmPhoneNumberDescription",
+    "type": "text",
+    "placeholders_order": [
+      "index"
+    ],
+    "placeholders": {
+      "index": {}
+    }
+  },
+  "ProjectsI18n_fillProfileDescriptionQuestionnaires": "{index,select, i0{Чтобы получать больше опросов заполните }i1{расширенные анкеты}i2{ в профиле}}",
+  "@ProjectsI18n_fillProfileDescriptionQuestionnaires": {
+    "description": "fillProfileDescription",
+    "type": "text",
+    "placeholders_order": [
+      "index"
+    ],
+    "placeholders": {
+      "index": {}
+    }
+  },
+  "ProjectsI18n_surveyArchiveIsEmpty": "Архив опросов пуст",
+  "@ProjectsI18n_surveyArchiveIsEmpty": {
+    "description": "surveyArchiveIsEmpty",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_surveyArchiveIsEmptyDesc": "Вы пока не принимали участия в опросах.",
+  "@ProjectsI18n_surveyArchiveIsEmptyDesc": {
+    "description": "surveyArchiveIsEmptyDesc",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_projectUtilityStatus": "{type,select, finished{Завершенные}unfinished{Не завершенные}}",
+  "@ProjectsI18n_projectUtilityStatus": {
+    "description": "operationType",
+    "type": "text",
+    "placeholders_order": [
+      "type"
+    ],
+    "placeholders": {
+      "type": {}
+    }
+  },
+  "ProjectsI18n_optingOut": "Отказ от участия.",
+  "@ProjectsI18n_optingOut": {
+    "description": "Отказ от участия",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "ProjectsI18n_min": "мин",
+  "@ProjectsI18n_min": {
+    "description": "мин",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_title": "questionnaires title",
+  "@QuestionnairesI18n_title": {
+    "description": "Description for Questionnaires title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_questionnairesNotFound": "Questionnaires not found",
+  "@QuestionnairesI18n_questionnairesNotFound": {
+    "description": "Description for Questionnaires not found",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_save": "Сохранить",
+  "@QuestionnairesI18n_save": {
+    "description": "Сохранить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_next": "Далее",
+  "@QuestionnairesI18n_next": {
+    "description": "Далее",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_prev": "Назад",
+  "@QuestionnairesI18n_prev": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_extendedQuestionnaire": "Расширенная анкета",
+  "@QuestionnairesI18n_extendedQuestionnaire": {
+    "description": "Расширенная анкета",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_question": "Вопрос",
+  "@QuestionnairesI18n_question": {
+    "description": "Вопрос",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_requiredQuestion": "Обязательный вопрос",
+  "@QuestionnairesI18n_requiredQuestion": {
+    "description": "Обязательный вопрос",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_saveResultTitle": "Сохранить ответы?",
+  "@QuestionnairesI18n_saveResultTitle": {
+    "description": "Сохранить ответы?",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_saveResultDescription": "Данные можно будет изменить в любой момент",
+  "@QuestionnairesI18n_saveResultDescription": {
+    "description": "Данные можно будет изменить в любой момент",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_saveBtn": "Сохранить",
+  "@QuestionnairesI18n_saveBtn": {
+    "description": "Сохранить",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_notSaveBtn": "Не сохранять",
+  "@QuestionnairesI18n_notSaveBtn": {
+    "description": "Не сохранять",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "QuestionnairesI18n_questionnaireProgress": "Прогресс опроса",
+  "@QuestionnairesI18n_questionnaireProgress": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SupportI18n_title": "operations title",
+  "@SupportI18n_title": {
+    "description": "Description for Operations title",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "SupportI18n_operationsNotFound": "Operations not found",
+  "@SupportI18n_operationsNotFound": {
+    "description": "Description for Operations not found",
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  }
+}

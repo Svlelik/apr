@@ -1,0 +1,9 @@
+bricks:
+  neo_empty_project_go_router:
+    git:
+      url: "https://github.com/xander9112/neo_skeleton"
+      path: neo_empty_project_go_router
+  neo_feature_go_router:
+    git:
+      url: "https://github.com/xander9112/neo_skeleton"
+      path: neo_feature_go_router

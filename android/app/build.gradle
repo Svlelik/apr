@@ -1,0 +1,80 @@
+def flutterRoot = project.hasProperty('flutter.sdk') ? project.flutter.sdk : '/opt/flutter'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+def versionProperties = new Properties()
+def versionPropertiesFile = rootProject.file('version.properties')
+
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+if (versionPropertiesFile.exists()) {
+    versionPropertiesFile.withReader('UTF-8') { reader ->
+        versionProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode') ?: '1'
+def flutterVersionName = localProperties.getProperty('flutter.versionName') ?: '1.0'
+def flutterCompileSdkVersion = (versionProperties.getProperty('flutter.compileSdkVersion') ?: '33').toInteger()
+def flutterMinSdkVersion = (versionProperties.getProperty('flutter.minSdkVersion') ?: '26').toInteger()
+def flutterTargetSdkVersion = (versionProperties.getProperty('flutter.targetSdkVersion') ?: '33').toInteger()
+
+android {
+    namespace "ru.skoromarket.vopros"
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    compileSdkVersion 35
+    buildToolsVersion "35.0.0"
+    ndkVersion "25.1.8937393"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "ru.skoromarket.vopros"
+        minSdkVersion flutterMinSdkVersion
+        targetSdkVersion flutterTargetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    flavorDimensions "app"
+
+    productFlavors {
+        dev {
+            dimension "app"
+        }
+
+        prod {
+            dimension "app"
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}

@@ -1,0 +1,329 @@
+mutation CheckCode($data: CheckCodeInput!) {
+  check_code(data: $data) {
+    ... on ReturnTokens {
+      __typename
+      access_token
+      refresh_token
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation CheckCodeVerified($data: CheckCodeVerifiedInput!) {
+  check_code_verified(data: $data) {
+    ... on Profile {
+      __typename
+      profile_id
+      profile_uid
+      phone
+      email
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation DeleteProfile {
+  delete_profile {
+    ... on Successfully {
+      __typename
+      message
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation Logout {
+  logout {
+    ... on Successfully {
+      __typename
+      message
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation PasswordCheckCode($data: CheckPasswordInput!) {
+  password_check_code(data: $data) {
+    ... on ReturnTokens {
+      __typename
+      access_token
+      refresh_token
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation PasswordResetRequest($data: UsernameInput!) {
+  password_reset_request(data: $data) {
+    ... on ReturnTimer {
+      __typename
+      timer
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation SendCode($login_input: LoginInput!) {
+  send_code(login_input: $login_input) {
+    ... on ReturnTimer {
+      __typename
+      timer
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation SetPassword($data: SetPasswordInput!) {
+  set_password(data: $data) {
+    ... on ReturnTokens {
+      __typename
+      access_token
+      refresh_token
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation SetPasswordVerified($data: SetPasswordVerifiedInput!) {
+  set_password_verified(data: $data) {
+    ... on Successfully {
+      __typename
+      message
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation UpdateProfile($profile_input: ProfileUpdate!) {
+  update_profile(profile_input: $profile_input) {
+    ... on Profile {
+      ...ProfileFragment
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation Auth($data: VerifyCodeInput!) {
+  auth(data: $data) {
+    ... on ReturnTokens {
+      __typename
+      access_token
+      refresh_token
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+query Dicts {
+  get_dict_sexes {
+    ... on DictSexTypeList {
+      __typename
+      dict_sex_type_list {
+        ...SexFragment
+      }
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+  get_dict_regions {
+    ... on DictRegionTypeList {
+      __typename
+      dict_region_type_list {
+        ...RegionFragment
+      }
+    }
+    ... on ReturnError {
+      __typename
+      name
+      message
+    }
+  }
+  get_dict_feds {
+    ... on DictFedTypeList {
+      __typename
+      dict_fed_type_list {
+        ...FedFragment
+      }
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+  get_dict_cities {
+    ... on DictCityTypeList {
+      __typename
+      dict_city_type_list {
+        ...CityFragment
+      }
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+query Profile {
+  profile {
+    ... on Profile {
+      ...ProfileFragment
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+query RefreshToken($refresh_token: String!) {
+  refresh_token(refresh_token: $refresh_token) {
+    ... on ReturnTokens {
+      __typename
+      access_token
+      refresh_token
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+mutation SendCodeVerify($data: UsernameInput!) {
+  web_send_code_verified(data: $data) {
+    ... on ReturnTimer {
+      __typename
+      timer
+    }
+    ... on ReturnError {
+      __typename
+      message
+      name
+    }
+  }
+}
+
+fragment ProfileFragment on Profile {
+  birthday
+  change_date
+  city {
+    ...CityFragment
+  }
+  email
+  first_name
+  fullness
+  is_approval_participation
+  is_approval_pdn
+  is_blocked
+  is_test_user
+  is_imported
+  last_name
+  locality
+  middle_name
+  phone
+  profile_id
+  profile_uid
+  region {
+    ...RegionFragment
+  }
+  registration_date
+  respondent_status {
+    status_email {
+      status_code
+      status_name
+    }
+    status_profile {
+      status_code
+      status_name
+    }
+    status_activity {
+      status_code
+      status_name
+    }
+  }
+  sex {
+    ...SexFragment
+  }
+  telegram_username
+  user_edit
+}
+
+fragment CityFragment on DictCityType {
+  city
+  city_code
+  city_id
+  population
+  region {
+    ...RegionFragment
+  }
+}
+
+fragment RegionFragment on DictRegionType {
+  fed {
+    ...FedFragment
+  }
+  region
+  region_id
+}
+
+fragment SexFragment on DictSexType {
+  sex
+  sex_id
+}
+
+fragment FedFragment on DictFedType {
+  fed
+  fed_id
+}

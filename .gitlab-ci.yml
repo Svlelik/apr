@@ -1,0 +1,45 @@
+stages:
+  - build
+  - release
+
+variables:
+  FLAVOR: "prod"
+  ANDROID_HOME: "/opt/android-sdk"
+  FLUTTER_ROOT: "/opt/flutter"
+
+build_aab:
+  stage: build
+  image: docker:20-git
+  tags:
+    - mediascope
+  before_script:
+    - |
+      export SSH_KEY_CONTENT="$(cat $SDK_SSH_KEY)"
+      echo "Flutter root: $FLUTTER_ROOT"
+  script:
+    - docker login $DEV_REGISTRY_SERVER -u $DEV_REGISTRY_USER -p $DEV_REGISTRY_PASSWORD
+    - |
+      docker build \
+        --build-arg FLAVOR=$FLAVOR \
+        --build-arg SSH_PRIVATE_KEY="$SSH_KEY_CONTENT" \
+        -t appbundle-builder .
+    - docker create --name appbundle-container appbundle-builder
+    - docker cp appbundle-container:/app/output .
+    - docker rm appbundle-container
+  artifacts:
+    paths:
+      - output/
+    expire_in: 1 week
+
+release_aab:
+  stage: release
+  image: alpine:latest
+  tags:
+    - mediascope
+  needs: ["build_aab"]
+  script:
+    - echo "Публикация AppBundle"
+    - apk add curl
+    - 'curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file output/app-${FLAVOR}-release.aab "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/AppBundle/${CI_COMMIT_REF_NAME}/app-${FLAVOR}-release.aab"'
+  rules:
+    - if: $CI_COMMIT_TAG  # Запускать только при создании тега

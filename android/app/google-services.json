@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1033225978862",
+    "project_id": "oro-digital",
+    "storage_bucket": "oro-digital.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033225978862:android:b4a54bffe6d8aa9b4dc4ff",
+        "android_client_info": {
+          "package_name": "ru.skoromarket.vopros"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5oUUTnM3_kGJfk7ADYyeCcyRMuRdtD5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

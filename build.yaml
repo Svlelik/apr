@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      graphql_codegen:
+        options:
+          scalars:
+            Union:
+              type: int
+              fromJsonFunctionName: bigIntToIntFromJson
+              toJsonFunctionName: bigIntToIntToJson
+              import: package:apr/scalar.dart
+          scopes:
+            - lib/src/core/features/auth/data/data_sources/queries/**
+            - lib/src/features/questionnaires/data/data_sources/queries/**

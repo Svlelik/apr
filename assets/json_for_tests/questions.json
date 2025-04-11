@@ -1,0 +1,88 @@
+[
+    {
+        "question_code": "count_smart",
+        "control_type_code": "number",
+        "title": "Сколько у вас смартфонов?",
+        "description": "Сколько в штуках",
+        "info": "Сколько именно штук?",
+        "is_required": true,
+        "sort_order": 1,
+        "page_num_xs": 1,
+        "page_num_m": 1,
+        "page_num_xl": 1,
+        "validators": [],
+        "visibility": null,
+        "questionnaire_code": "test_form",
+        "control_type": {
+            "control_type_code": "number",
+            "title": "Поле ввода чисел",
+            "description": "Спец клавиатура для ввода только чисел"
+        }
+    },
+    {
+        "question_code": "smart_name",
+        "control_type_code": "text",
+        "title": "Навание основного смартфона",
+        "description": "Полное название",
+        "info": null,
+        "is_required": true,
+        "sort_order": 2,
+        "page_num_xs": 2,
+        "page_num_m": 2,
+        "page_num_xl": 1,
+        "validators": [
+            {
+                "regex": "^[A-Za-z0-9]*$",
+                "error_message": "Допустимы только английские буквы и цифры",
+                "validator_uid": "d2f856e6-8656-4e55-9f1d-3b0ac5b25249",
+                "question_code": "smart_name"
+            }
+        ],
+        "visibility": {
+            "visibility_conditions": [
+                {
+                    "question_code": "count_smart",
+                    "answer_code": "0",
+                    "visibility_condition_type": {
+                        "title": "Больше",
+                        "visibility_condition_type_code": "more"
+                    },
+                    "visibility_uid": "a5dbe7a2-df68-4032-876f-d893e1fcba2a",
+                    "visibility_condition_uid": "8b9b9c07-7b8f-4f4d-8bd5-6a1c767f1890"
+                }
+            ],
+            "visibility_action": {
+                "title": "Или",
+                "visibility_action_code": "or"
+            },
+            "visibility_uid": "a5dbe7a2-df68-4032-876f-d893e1fcba2a",
+            "visibility_parent_uid": null
+        },
+        "questionnaire_code": "test_form",
+        "control_type": {
+            "control_type_code": "text",
+            "title": "Текстовое поле",
+            "description": null
+        }
+    },
+    {
+        "question_code": "text_from_master_info",
+        "control_type_code": "info",
+        "title": "полезная информация",
+        "description": "Самая полезная",
+        "info": null,
+        "is_required": false,
+        "sort_order": 3,
+        "page_num_xs": 3,
+        "page_num_m": 2,
+        "page_num_xl": 1,
+        "validators": [],
+        "visibility": null,
+        "questionnaire_code": "test_form",
+        "control_type": {
+            "control_type_code": "info",
+            "title": "Информационное поле",
+            "description": "Поле без поля ввода."
+        }
+    }
+]
